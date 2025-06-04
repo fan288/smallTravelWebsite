@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Japan</title>
+    <!-- Bootstrap 4.6 CSS -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- tab icon -->
+    <link rel="icon" type="image/svg+xml" href="./res/other/suitcaseLogo.svg">
+    <!-- external style -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- sidebar -->
+    <script src="./sidebar.js"></script>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('./sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('sidebar-container').innerHTML = data;
+
+                // Add the 'show' class
+                document.getElementById('collapseOne').classList.add('show');
+
+                // bookmark
+                document.getElementById('japan').style.backgroundColor = '#b39ddb';
+            });
+    </script>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1 style="text-align: center;">Japan</h1>
+
+        <div id="japanLocation">
+            <h3>Location</h3>
+
+            <div class="flex-image-row">
+                <div class="flex-image-row-container"> 
+                    <p>
+                        Japan is an island nation located in East Asia, situated in the Pacific Ocean. 
+                        It consists of four main islands—Honshu, Hokkaido, Kyushu, and Shikoku—along 
+                        with many smaller islands. Japan lies to the east of the Asian continent, 
+                        separated by the Sea of Japan, and is northeast of China and Korea. The country 
+                        is known for its unique blend of traditional culture and modern technology, 
+                        as well as its stunning landscapes, from mountains to coastlines.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container">
+                    <a href="./res/japan/japanMap.png" target="_blank" data-lightbox="japan-map" data-title="Japan Map" >
+                        <img src="./res/japan/japanMap.png" alt="Japan Map">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="japanHistory" style="padding-bottom: 10px; clear: both;">
+            <h3>History</h3>
+
+            <p>From the ancient Jomon people to the flourishing Heian period, where art and literature thrived, 
+                Japan has evolved significantly over time. The samurai era brought feudalism and the 
+                rise of shogunates, followed by the Edo period, which saw peace and cultural growth.
+                
+            </p>
+
+            <div class="flex-image-row">
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/japan/historyHeianPeriod.jpg" alt="Heian Period" >
+                    <p>Heian Period</p>
+                </div>
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/japan/historySamuralEra.jpg" alt="Samural Era">
+                    <p>Samura Era</p>
+                </div>
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/japan/historyEdoPeriod.jpg" alt="Edo Period">
+                    <p>Edo Period</p>
+                </div>
+            </div>
+
+            <br>
+            <p>
+                The Meiji Restoration in 1868 marked a major turning point, as Japan embraced modernization 
+                and became a global power. After World War II, the country rebuilt itself, emerging as a 
+                leader in technology and innovation. Today, Japan's history is reflected in its stunning 
+                temples, traditional festivals, and vibrant culture, offering a unique blend of past and present.
+                Here is the video to introduce the modern history of Japan:
+            </p>
+
+            <div style="text-align: center;">
+                <iframe 
+                width="560" 
+                height="315"
+                src="https://www.youtube.com/embed/Oc_un-o4hGc" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+                <p style="font-size: 0.9rem; color: gray; margin-top: 5px;">
+                    Video by 
+                        <a href="https://www.youtube.com/channel/UC22BdTgxefuvUivrjesETjg" 
+                            target="_blank" 
+                            style="color: gray; 
+                            text-decoration: underline;">
+                            History Matters
+                        </a>
+                </p>
+            </div>
+        </div>
+
+        <div id="japanCulure">
+            <h3>Culture</h3>
+
+            <div class="flex-image-row">
+
+                <div class="flex-image-row-container" style="flex:1.3;">
+                    <p>
+                        Japanese culture is a rich tapestry woven from centuries of history, tradition, and innovation. 
+                        One of the most notable aspects is the deep respect for nature, reflected in various cultural practices, 
+                        such as bonsai and the celebration of seasonal festivals like hanami, where people gather to appreciate 
+                        the fleeting beauty of cherry blossoms. Traditional Japanese architecture, with its sliding doors and 
+                        tatami mat floors, harmonizes with the surrounding landscape, creating serene spaces that invite contemplation.
+
+                        <br><br>
+                        Another significant element of Japanese culture is its emphasis on etiquette and social harmony. 
+                        Manners play a crucial role in daily life, influencing everything from communication styles to 
+                        dining practices. The concept of "wa" (和), which means harmony, underscores the importance of 
+                        group cohesion and respect for others. This is seen in practices such as bowing as a form of 
+                        greeting and the meticulous preparation of tea during the traditional tea ceremony, known as 
+                        "chanoyu." Japanese cuisine, with dishes like sushi, ramen, and tempura, emphasizes seasonal 
+                        ingredients and aesthetic presentation, showcasing the artistry that permeates Japanese life.
+
+                        <br><br>
+                        Additionally, Japan is renowned for its artistic expressions, ranging from traditional forms like 
+                        calligraphy and ikebana (flower arranging) to contemporary pop culture phenomena such as anime and 
+                        manga. Iconic artworks, like those of ukiyo-e woodblock prints, depict scenes of everyday life and 
+                        nature, while modern art movements continue to thrive. Festivals, such as Gion Matsuri in Kyoto, 
+                        celebrate local traditions through elaborate floats and traditional costumes. This dynamic interplay 
+                        of historical traditions and modern influences continues to shape Japan's cultural identity on the 
+                        global stage.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container" style="flex:0.7">
+                    <div class="flex-image-vertical">
+                        <img src="./res/japan/cultureIkebana.webp" alt="Japan Ikebana">
+                        <p>Ikebana</p>
+                        <img src="./res/japan/cultureSushi.jpeg" alt="Japan Sushi">
+                        <p>Sushi</p>
+                        <img src="./res/japan/cultureHanami.avif" alt="Japan Hanami">
+                        <p>Hanami</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="japanAttraction" class="eighty-percent-image">
+            <h3>
+                Attraction
+            </h3>
+
+            <p class="attraction-header">
+                Nagoya Castle
+            </p>
+
+            <div id="castleA">
+                <img src="./res/japan/attractionNagoyaCastle1.jpg" alt="Nagoya Castle 1" />
+            </div>
+
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Nagoya_Castle" target="_blank">Nagoya Castle</a> 
+                (名古屋城, Nagoyajō) was built in the beginning of the Edo Period (1603-1868) as 
+                the seat of one of the three branches of the ruling Tokugawa family, the Owari branch. 
+                As such, it was one of the largest castles in the country, and the castle town around 
+                it ultimately grew to become Japan's fourth largest city.
+
+                <br><br>
+                Most castle buildings were destroyed in the air raids of 1945, including the castle keep 
+                and the palace buildings. The current ferro-concrete reconstruction of the castle keep 
+                dates from 1959 and - before its closure in May 2018 - contained a museum about the 
+                castle's history. The park surrounding the castle keep features two circles of moats 
+                and impressive walls with corner turrets. It becomes an attractive hanami spot during 
+                the cherry blossom season which usually peaks in late March or early April.
+            </p>
+
+            <div>
+                <img src="./res/japan/attractionNagoyaCastle2.jpg" alt="Nagoya Castle 2" />
+            </div>
+
+            <p>
+                The castle's palace (Honmaru Goten) was recently rebuilt and fully opened to the public 
+                in June 2018. Half a century after its destruction in the war, the palace was rebuilt 
+                using traditional construction materials and techniques. It contains entrance and 
+                reception halls as well as rooms reserved for the visiting shogun with beautiful, 
+                replicated paintings on the sliding doors (fusuma). The palace has been considered 
+                one of the finest examples of Shoin architecture in all of Japan.
+
+                <br><br>
+                In another ambitious project, the city is planning to reconstruct Nagoya Castle's 
+                main keep in wood. The current, ferro-concrete main keep was closed to the public 
+                in May 2018 due to concerns about its earthquake resistance. It was previously 
+                schedule to be demolished in 2024 and the new, wooden keep to be completed in 2028; 
+                however, the project is being delayed and not expected to be completed before 2032.
+            </p>
+
+            <div>
+                <img src="./res/japan/attractionNagoyaCastle3.jpg" alt="Nagoya Castle 3" />
+            </div>
+
+            <p class="attraction-sub-header"><b>Getting There and Around</b></p>
+
+            <p>From Nagoya Station, take the Sakuradori Subway Line to Hisayaodori Station 
+                (5 minutes) and change to the Meijo Subway Line to Nagoyajo Station (2 minutes). 
+                The total one way journey takes about ten minutes and costs 240 yen. From the 
+                nearest exit, it is a three minute walk to the castle's east gate.
+
+                <br><br>
+                Alternatively, the castle's main gate can be reached from Nagoya Station by the 
+                Meguru tourist loop bus in about 25 minutes. The fare is 210 yen per ride or 
+                500 yen for a day pass.
+            </p>
+
+            <div>
+                <img src="./res/japan/attractionNagoyaCastle4.jpg" alt="Nagoya Castle 4" />
+            </div>
+            
+            <div id="info-container">
+                <p style="font-size: 20px;"><b>Hour and Fees</b></p>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 1 .5.5v4h3a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/>
+                    </svg>
+    
+                    <p> 
+                        <b>Hour</b>
+                        <br>09:00 to 16:30 (entry to buildings ends at 16:00)
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-x" viewBox="0 0 16 16">
+                        <path d="M6.146 7.146a.5.5 0 0 1 .708 0L8 8.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 9l1.147 1.146a.5.5 0 0 1-.708.708L8 9.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 9 6.146 7.854a.5.5 0 0 1 0-.708"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Closed</b>
+                        <br>December 29 - January 1
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Admission</b>
+                        <br> &yen; 500
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        <a href="#top" class="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+            </svg>
+        </a>
+    
+    </div>
+
+    <!-- Footer -->
+    <div id="Footer-container"></div>
+    <script>
+        fetch('./footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('Footer-container').innerHTML = data;
+            });
+    </script>
+
+
+    <!-- Bootstrap 4.6 JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

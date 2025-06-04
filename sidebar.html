@@ -1,0 +1,114 @@
+<style>
+    .sidebar-image-container {
+    text-align: center; 
+    margin: 100px 0px;
+    }
+
+    .sidebar-image {
+        width: 100%; 
+        height: auto;
+    }
+
+</style>
+
+<div class="sidebar">
+
+    <svg xmlns="http://www.w3.org/2000/svg" 
+            width=50% fill="currentColor" 
+            class="bi bi-suitcase-lg-fill" 
+            viewBox="0 0 16 16"
+            style="margin:15% 25%">
+        <path d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2zM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zM3 13V3h1v10zm9 0V3h1v10z"/>
+    </svg>
+
+    <button 
+        id="homebutton" 
+        class="side-bar-button-1" 
+        onclick="window.location.href='./homePage.html';">
+        Home
+    </button>
+
+    <div class="accordion" id="accordionExample">
+        <div>
+
+            <div class="side-bar-button" id="asia">
+                <button 
+                    class="side-bar-button-1" 
+                    type="button" data-toggle="collapse" 
+                    data-target="#collapseOne" 
+                    aria-expanded="true" 
+                    aria-controls="collapseOne">
+                    Asia
+                </button>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div>
+                    <button 
+                        id="japan" 
+                        class="side-bar-button-2" 
+                        onclick="window.location.href='./japan.html'">
+                        Japan
+                    </button>
+
+                    <button 
+                        id="korea" 
+                        class="side-bar-button-2" 
+                        onclick="window.location.href='./Korea.html';">
+                        Korea
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="side-bar-button" id="headingTwo">
+                <button class="side-bar-button-1" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#collapseTwo" 
+                aria-expanded="true" 
+                aria-controls="collapseTwo">
+                Europe
+                </button>
+            </div>
+        
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div>
+                    <button 
+                        id="british" 
+                        class="side-bar-button-2" 
+                        onclick="window.location.href='./british.html'">
+                        British
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="side-bar-button" id="headingthree">
+                <button class="side-bar-button-1" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#collapseThree" 
+                aria-expanded="true" 
+                aria-controls="collapseThree">
+                Africa
+                </button>
+            </div>
+        
+            <div id="collapseThree" class="collapse" aria-labelledby="headingthree" data-parent="#accordionExample">
+                <div>
+                    <button 
+                        id="egypt" 
+                        class="side-bar-button-2" 
+                        onclick="window.location.href='./egypt.html'">
+                        Egypt
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

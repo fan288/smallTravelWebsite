@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Korea</title>
+    <!-- Bootstrap 4.6 CSS -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- tab icon -->
+    <link rel="icon" type="image/svg+xml" href="./res/other/suitcaseLogo.svg">
+    <!-- external style -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- sidebar -->
+    <script src="./sidebar.js"></script>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('./sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('sidebar-container').innerHTML = data;
+
+                // Add the 'show' class
+                document.getElementById('collapseOne').classList.add('show');
+
+                // bookmark
+                document.getElementById('korea').style.backgroundColor = '#b39ddb';
+            });
+    </script>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1 style="text-align: center;">South Korea</h1>
+
+        <div id="japanLocation">
+            <h3>Location</h3>
+
+            <div class="flex-image-row">
+                <div class="flex-image-row-container"> 
+                    <p>
+                        South Korea, officially known as the Republic of Korea, is located in East Asia 
+                        on the southern part of the Korean Peninsula. It is bordered by North Korea to 
+                        the north, while to the south, it faces the Yellow Sea. The country is flanked 
+                        by the Korea Strait to the east and the Yellow Sea to the west. South Korea 
+                        shares maritime borders with Japan to the southeast, making it a significant 
+                        hub in the region. Its geographical position has contributed to its rich cultural 
+                        heritage and economic development, as it serves as a crossroads between various 
+                        Asian nations.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container">
+                    <a href="./res/korea/southKoreaMap.png" target="_blank" data-lightbox="korea-map" data-title="Korea Map" >
+                        <img src="./res/korea/southKoreaMap.png" alt="Korea Map">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="japanHistory" style="padding-bottom: 10px; clear: both;">
+            <h3>History</h3>
+
+            <p>South Korea's history is marked by a rich tapestry of dynasties, invasions, and cultural 
+                evolution. The earliest known kingdom, Gojoseon, emerged around 2333 BCE. Over the centuries, 
+                various dynasties, such as the Silla, Goryeo, and Joseon, played significant roles in shaping 
+                the region's identity. The Joseon Dynasty, which lasted for over five centuries, is particularly 
+                notable for its advancements in Confucianism, science, and the arts. The invention of the Korean 
+                script, Hangul, in the 15th century by King Sejong the Great is a pivotal moment in Korean history, 
+                promoting literacy and cultural cohesion.
+                
+            </p>
+
+            <div class="flex-image-row">
+            
+                <div class="flex-image-row-container">
+                    <img src="./res/korea/historyGojoseonTangunWanggeom.jpg" alt="Korean Script Hangul"
+                    style="width: 105%;">
+                    <p style="text-align: right">Tangun - the Legendary Founder and First King of Gojoseon</p>
+                </div>
+
+                <div class="flex-image-row-container" style="width: 87%; text-align: right">
+                    <img src="./res/korea/historyKoreanScriptHangul.png" alt="Korean Script Hangul"
+                    style="width: 93%;">
+                    <p style="text-align: right">Korean Script Hangul - the Modern Korean Writing System</p>
+                </div>
+
+             </div>
+
+             <div class="flex-image-row">
+            
+                <div class="flex-image-row-container" >
+                    <p style="display: block;">
+                        The 20th century brought profound changes, including Japanese colonization from 1910 to 1945, 
+                        which significantly impacted Korean society and culture. Following Japan's defeat in World War II, 
+                        Korea was divided into two separate states—the Democratic People's Republic of Korea (North Korea) 
+                        and the Republic of Korea (South Korea). The Korean War (1950-1953) solidified this division, 
+                        leading to ongoing political tensions and differing paths of development, with South Korea emerging 
+                        as a democratic and economically prosperous nation.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container">
+                    <div style="text-align: center;">
+                        <iframe 
+                        width="560" 
+                        height="315"
+                        src="https://www.youtube.com/embed/6llQB4p9NT4" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+                        <p style="font-size: 0.9rem; color: gray; margin-top: 5px;">
+                            Video by 
+                                <a href="https://www.youtube.com/channel/UC7JrMLRDJLUh5BPBYykMcrQ" 
+                                    target="_blank" 
+                                    style="color: gray; 
+                                    text-decoration: underline;">
+                                    History on Maps
+                                </a>
+                        </p>
+                    </div>
+                </div>
+             </div>
+        
+        </div>
+
+        <div id="japanCulure">
+            <h3>Culture</h3>
+
+            <div class="flex-image-row">
+
+                <div class="flex-image-row-container" style="flex:1.3;">
+                    <p>
+                        South Korean culture is a vibrant blend of traditional and modern influences, characterized 
+                        by its unique customs, cuisine, and artistic expressions. Traditional elements, such as hanbok 
+                        (traditional clothing), tea ceremonies, and folk music, coexist with contemporary trends like
+                        K-pop, fashion, and digital media. The global phenomenon of K-pop has not only transformed 
+                        the music industry but also influenced fashion and youth culture worldwide, with groups like 
+                        BTS and BLACKPINK leading the charge.
+
+                        <br><br>
+                        Cuisine is another vital aspect of South Korean culture, renowned for its bold flavors and 
+                        diverse dishes. Staples like kimchi, a fermented vegetable dish, and bibimbap, a mixed rice 
+                        dish, showcase the emphasis on fresh ingredients and communal dining. Festivals, such as 
+                        Chuseok (harvest festival) and Seollal (Lunar New Year), highlight the importance of family 
+                        and community, featuring traditional games, food, and rituals that honor ancestors. This 
+                        rich cultural heritage continues to evolve, reflecting South Korea's dynamic society.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container" style="flex:0.5;">
+                    <div class="flex-image-vertical">
+                        <img src="./res/korea/cultureHanbok.jpg" alt="Korea Hanbok">
+                        <p>Hanbok</p>
+                        <img src="./res/korea/cultureKimchi.jpg" alt="Korea Kimchi">
+                        <p>Kimchi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="japanAttraction" class="eighty-percent-image">
+            <h3>
+                Attraction
+            </h3>
+
+            <p class="attraction-header">
+                N Seoul Tower
+            </p>
+
+            <div id="nSeoulTower">
+                <img src="./res/korea/attractionNSeoulTower1.jpg" alt="Korea N Seoul Tower 1" />
+            </div>
+
+            <p>
+                <a href="https://en.wikipedia.org/wiki/N_Seoul_Tower" target="_blank">N Seoul Tower</a> 
+                The N Seoul Tower (Korean: N 서울타워), officially the YTN Seoul Tower and a.k.a. the 
+                Namsan Tower, is a communication and observation tower located on the summit of Namsan 
+                (262 m (860 ft)) in central Seoul, South Korea. The 236-metre-tall (774 ft) structure 
+                marks the second highest point in Seoul and is considered a local landmark.
+
+                <br><br>
+                Built in 1971, N Seoul Tower is South Korea's first general radio wave tower, providing 
+                TV and radio broadcasting in Seoul. Currently, the tower broadcasts signals for Korean 
+                media outlets, such as KBS, MBC and SBS.
+
+            </p>
+
+            <div>
+                <img src="./res/korea/attractionNSeoulTower2.jpg" alt="Korea N Seoul Tower 2" style="width: 100%;"/>
+                <p style="text-align: center;">N Seoul Tower Observatory</p>
+            </div>
+
+            <p>
+                The main draw of N Seoul Tower is its observatory. Observe the city below from the height 
+                of the clouds by making your way up to the tower’s observation deck. The main observation 
+                deck on 3F features large, floor-to-ceiling windows the whole way around the tower, allowing 
+                you to experience the full 360-degree views. There is information on various points of interests 
+                that can be seen through the windows and plenty of comfy chairs around as well. One floor up 
+                from here, on 4F, you’ll find the digital observatory. This floor features high-powered 
+                telescopes and each window panel lets you know which major world city you are facing.
+
+                <br><br>
+                The N Seoul Tower observatory is open year-round from 10 a.m. to 11 pm Sunday to Friday and 
+                from 10 a.m. to midnight on Saturdays. However, entry up to the observatory closes half an 
+                hour before closing time, so make sure you arrive before then. Access to the observatory 
+                also requires an admission ticket. The price of admission is 10,000 won for visitors 13 
+                years of age and 8,000 won for children between three and 12 and seniors over 65.
+            </p>
+
+            <div>
+                <img src="./res/korea/attractionNSeoulTower3.jpg" alt="Korea N Seoul Tower 3" />
+                <p style="text-align: center;">N Seoul Tower's Hanbok Culture Experience Center</p>
+            </div>
+
+
+            <p>
+                The Hanbok Culture Experience Center is located in the lobby of the N Seoul Tower plaza. 
+                It offers visitors a chance to take part in two traditional cultural experiences themed 
+                around the Joseon Dynasty. In the Hanbok Experience, guests get to dress up and accessorize 
+                in traditional attire and take pictures in the photo zones. In the Traditional Wedding Experience, 
+                guests dress up in wedding attire and have their photos taken by a professional photographer. 
+                The center is open from 11 a.m. to 10 p.m. Tickets cost 4,000 won for guests 14 years and 
+                older and 1,000 won for children under 13. Children under 7 years of age enjoy free admission. 
+                Note that the price of admission does not include Hanbok rental. It is also an extra charge to 
+                take part in the Hanbok Experience and the Traditional Wedding Experience.
+            </p>
+
+            <p class="attraction-sub-header"><b>How to Get to N Seoul Tower</b></p>
+
+            <div>
+                <a href="./res/korea/attractionNSeoulTower4.jpg" target="_blank">
+                    <img src="./res/korea/attractionNSeoulTower4.jpg" alt="Korea N Seoul Tower 4" />
+                </a>
+            </div>
+
+            <p>
+                There are a number of ways to get to N Seoul Tower depending on how you prefer to get around 
+                on your travels. While it is possible to walk up Namsan Mountain and reach the tower, the trails 
+                are steep and fairly difficult. The most recommended transportation options for tourists are 
+                the Namsan Cable Car, a shuttle bus, or a city tour bus.
+            </p>
+            
+            <div id="info-container">
+                <p style="font-size: 20px;"><b>Hour and Fees</b></p>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 1 .5.5v4h3a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/>
+                    </svg>
+    
+                    <p> 
+                        <b>Hour</b>
+                        <br>10:00 to 22:00 <a href="https://www.nseoultower.co.kr/eng/visit/use.asp" target="_blank">(Detailed Facility Hours)</a>
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-x" viewBox="0 0 16 16">
+                        <path d="M6.146 7.146a.5.5 0 0 1 .708 0L8 8.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 9l1.147 1.146a.5.5 0 0 1-.708.708L8 9.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 9 6.146 7.854a.5.5 0 0 1 0-.708"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Closed</b>
+                        <br>Open 365 days a year
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Admission</b>
+                        <br> &#8361; 26000 (for Observatory)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        <a href="#top" class="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+            </svg>
+        </a>
+    
+    </div>
+
+    <!-- Footer -->
+    <div id="Footer-container"></div>
+    <script>
+        fetch('./footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('Footer-container').innerHTML = data;
+            });
+    </script>
+
+
+    <!-- Bootstrap 4.6 JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

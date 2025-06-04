@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Egypt</title>
+    <!-- Bootstrap 4.6 CSS -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- tab icon -->
+    <link rel="icon" type="image/svg+xml" href="./res/other/suitcaseLogo.svg">
+    <!-- external style -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- sidebar -->
+    <script src="./sidebar.js"></script>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('./sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('sidebar-container').innerHTML = data;
+
+                // Add the 'show' class
+                document.getElementById('collapseThree').classList.add('show');
+
+                // bookmark
+                document.getElementById('egypt').style.backgroundColor = '#b39ddb';
+            });
+    </script>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1 style="text-align: center;">Egypt</h1>
+
+        <div id="egyptLocation">
+            <h3>Location</h3>
+
+            <div class="flex-image-row">
+                <div class="flex-image-row-container" style="flex: 1;"> 
+                    <p>
+                        Modern Egypt is located in the northeastern corner of Africa, bordered by the Mediterranean 
+                        Sea to the north, the Red Sea to the east, and the Sahara Desert to the west and south. 
+                        The country shares borders with Libya to the west, Sudan to the south, and Israel and the 
+                        Gaza Strip to the northeast. The Nile River, one of the longest rivers in the world, flows 
+                        through Egypt from south to north, providing a vital water source that has supported 
+                        agriculture and civilization for thousands of years. Major cities, including the capital 
+                        Cairo, are situated along the Nile, while coastal cities like Alexandria and Hurghada 
+                        offer access to beautiful beaches and historical sites. This strategic location has 
+                        historically made Egypt a crossroads for trade and cultural exchange between Africa, 
+                        Europe, and the Middle East.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container" style="flex: 0.5;">
+                    <a href="./res/egypt/egyptMap.jpg" target="_blank" data-lightbox="egypt-map" data-title="Egypt Map" >
+                        <img src="./res/egypt/egyptMap.jpg" alt="Egypt Map">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="japanHistory" style="padding-bottom: 10px; clear: both;">
+            <h3>History</h3>
+
+            <p>Egypt's history is one of the oldest and most fascinating narratives in human civilization, dating 
+                back to around 3100 BCE when King Narmer unified Upper and Lower Egypt. This period marked the
+                beginning of the Pharaonic era, characterized by centralized governance and monumental architecture, 
+                including the iconic pyramids of Giza. The ancient Egyptians developed a complex society with advancements 
+                in writing, mathematics, and art, establishing a rich cultural legacy that continues to captivate the world. 
+                Throughout its long history, Egypt experienced periods of prosperity and decline, influenced by 
+                invasions and foreign rule. The Middle Kingdom (c. 2050–1710 BCE) is often regarded as a golden age of 
+                art and literature, while the New Kingdom (c. 1550–1070 BCE) saw the expansion of Egypt's empire and the 
+                reign of powerful pharaohs such as Hatshepsut and Ramses II.
+
+                <br><br>
+                As time progressed, Egypt faced invasions from various powers, including the Assyrians, Persians, and Greeks, 
+                culminating in the arrival of Alexander the Great in 332 BCE. This marked the beginning of the Hellenistic period, 
+                which introduced Greek culture to Egypt. Following the death of Alexander, the Ptolemaic dynasty emerged, 
+                with Cleopatra VII as its last ruler. The Romans annexed Egypt in 30 BCE after Cleopatra's defeat, making it 
+                a province of the Roman Empire. Over the centuries, Egypt transitioned through various cultural and political 
+                shifts, including the rise of Islam in the 7th century, which transformed its identity and established Cairo as 
+                a center of learning and culture.
+                
+            </p>
+
+            <div class="flex-image-row">
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/egypt/historyPyramidsGiza.jpg" alt="Pyramids of Giza" >
+                    <p>Pyramids of Giza</p>
+                </div>
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/egypt/historyAlexanderConquer.jpg" alt="Alexander Conquer">
+                    <p>Alexander Conquer</p>
+                </div>
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/egypt/historyMosqueMohamedAli.jpg" alt="Mosque of Mohamed Ali">
+                    <p>Mosque of Mohamed Ali</p>
+                </div>
+            </div>
+
+            <br>
+            <p>
+                The 19th century brought significant changes to Egypt, beginning with the rule of Muhammad Ali, who modernized the 
+                country through military and economic reforms. However, increasing debt led to British control, and Egypt became 
+                a protectorate in 1914. Nationalist movements gained momentum, resulting in the 1922 declaration of independence, 
+                though Egypt remained under British influence for several more years. The revolution of 1952 marked a turning point, 
+                establishing a republic under President Gamal Abdel Nasser, who promoted modernization and Arab nationalism. Despite 
+                facing political challenges and economic issues, Egypt today continues to play a pivotal role in regional politics 
+                while preserving its rich ancient heritage.
+            </p>
+
+            <div style="text-align: center;">
+                <iframe 
+                width="560" 
+                height="315"
+                src="https://www.youtube.com/embed/HGiZv3-ORsY" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+                <p style="font-size: 0.9rem; color: gray; margin-top: 5px;">
+                    Video by 
+                        <a href="https://www.youtube.com/channel/UC1rw3ak9psdwGOSXQLO1Fnw" 
+                            target="_blank" 
+                            style="color: gray; 
+                            text-decoration: underline;">
+                            Serbian Ball
+                        </a>
+                </p>
+            </div>
+        </div>
+
+        <div id="japanCulure">
+            <h3>Culture</h3>
+
+            <div class="flex-image-row">
+
+                <div class="flex-image-row-container" style="flex:1.3;">
+                    <p>
+                        Egyptian culture is a rich tapestry woven from thousands of years of history, tradition, and religious 
+                        beliefs. Ancient Egyptian civilization is renowned for its contributions to art, architecture, and writing, 
+                        with hieroglyphics serving as a sophisticated system of communication. The culture was deeply intertwined 
+                        with religion, where gods and goddesses played central roles in daily life. Temples and monuments, such 
+                        as the Karnak Temple and the Valley of the Kings, were constructed to honor deities and commemorate 
+                        pharaohs, showcasing the artistic and architectural prowess of the time.
+
+                        <br><br>
+                        Modern Egyptian culture reflects a blend of ancient traditions and contemporary influences. The country is 
+                        known for its vibrant music, literature, and cinema, with famous figures such as the poet Ahmed Shawqi and 
+                        singer Umm Kulthum leaving lasting legacies. Traditional crafts, such as pottery, weaving, and jewelry-making, 
+                        continue to thrive, often incorporating motifs and techniques passed down through generations. Festivals like 
+                        Ramadan and Eid al-Fitr are celebrated with great enthusiasm, highlighting the importance of community and 
+                        family in Egyptian society.
+
+                        <br><br>
+                        Cuisine is another essential aspect of Egyptian culture, characterized by dishes such as koshari (a mix of rice, 
+                        lentils, and pasta), falafel, and various types of bread. Meals often bring families together, emphasizing 
+                        hospitality and shared experiences. The rich cultural heritage of Egypt, from its ancient roots to modern 
+                        expressions, remains a source of pride for its people and continues to attract interest from around the globe.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container" style="flex:0.5">
+                    <div class="flex-image-vertical" style="text-align: center;">
+                        <div>
+                            <img src="./res/egypt/culturePharaohs.jpeg" alt="Egypt Pharaohs">
+                            <p>Pharaohs</p>
+                        </div>
+                        <div>
+                            <img src="./res/egypt/cultureEgyptianPottery.jpeg" alt="Egyptian Pottery">
+                            <p>Egyptian Craft</p>
+                        </div>
+                        <div>
+                        <img src="./res/egypt/cultureEgyptianKoshari.jpeg" alt="Egypt Koshari">
+                        <p>Koshari</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="egyptAttraction" class="eighty-percent-image">
+            <h3>
+                Attraction
+            </h3>
+
+            <p class="attraction-header">
+                Pyramids of Giza
+            </p>
+
+            <div>
+                <img src="./res/egypt/attractionPyramidsGiza1.jpg" alt="Pyramids of Giza 1" />
+            </div>
+
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Giza_pyramid_complex" target="_blank">Pyramids of Giza</a> 
+                The Pyramids of Giza are a complex of three massive pyramids on the Giza Plateau in Egypt, 
+                built during the Fourth Dynasty of the Old Kingdom, roughly between 2600 and 2500 BC. The 
+                pyramids were royal tombs for the pharaohs Khufu, Khafre, and Menkaure. The Great Pyramid, 
+                the oldest and largest, was built for Khufu. The other two are the pyramids of Khafre and 
+                Menkaure. The Giza pyramid complex also includes smaller satellite pyramids, tombs for nobility, 
+                and the Great Sphinx.
+
+                <br><br>
+                Its sides rise at an angle of 51°52′ and are accurately oriented to the four cardinal points of 
+                the compass. The Great Pyramid’s core is made of yellowish limestone blocks, the outer casing 
+                (now almost completely gone) and the inner passages are of finer light-colored limestone, and 
+                the interior burial chamber is built of huge blocks of granite. Approximately 2.3 million blocks 
+                of stone were cut, transported, and assembled to create the 5.75-million-ton structure, which 
+                is a masterpiece of technical skill and engineering ability. The internal walls as well as 
+                those few outer-casing stones that still remain in place show finer joints than any other 
+                masonry constructed in ancient Egypt.
+            </p>
+
+            <div>
+                <img src="./res/egypt/attractionPyramidsGiza2.jpg" alt="Pyramids of Giza 2" />
+            </div>
+
+            <p>
+                Embark on a remarkable journey through time as you explore the mystical wonders hidden within 
+                the Pyramids of Egypt. With our exclusive tour inside the pyramids, you’ll have the extraordinary 
+                opportunity to venture deep into these ancient structures, unraveling the secrets they hold and 
+                immersing yourself in the awe-inspiring atmosphere of one of the world’s most iconic destinations.
+
+                <br><br>
+                As you step foot inside these architectural marvels, you’ll be transported back thousands of years 
+                to the era of the pharaohs. Walk in the footsteps of ancient rulers and discover the elaborate chambers, 
+                intricate passageways, and enigmatic hieroglyphs that adorn the pyramid walls. Accompanied by expert 
+                guides well-versed in the history and significance of these monumental structures, you’ll gain a 
+                profound understanding of the pyramid’s construction, purpose, and their role in ancient Egyptian 
+                culture.
+
+                <br><br>
+                Prepare to be captivated by the sheer magnitude of these ancient structures, marveling at their precision 
+                and engineering prowess that have withstood the test of time. Hear fascinating tales of pharaohs and their 
+                elaborate burial rituals, gaining insights into the religious and spiritual beliefs that shaped ancient 
+                Egyptian civilization.
+            </p>
+
+            <div>
+                <img src="./res/egypt/attractionPyramidsGiza3.jpg" alt="Pyramids of Giza 3" />
+            </div>
+
+            <p class="attraction-sub-header"><b>Getting There and Around and Tips</b></p>
+
+            <p>The best way to get to the Pyramids of Giza is to hail a cab or take the metro. Metro line M2 runs to Giza, and the nearest stations are Giza 
+                (or “El Giza”) and Omm El-Misryeen. From here you can take a bus from El Giza Station or Moneeb Station to Haram Mashaal near the pyramids, 
+                You can also flag a taxi. There are usually two carriages on each metro train reserved for women, look for the blue ‘Ladies’ signs on the platform. </p>  
+
+            <p>Tips:</p>
+                <ul>
+                    <li>Visitors are advised to book tickets online, and in advance, as tickets to the Pyramids of Giza are limited and often sell out by 8 AM. </li>
+                    <li>The best time to visit the Pyramids of Giza is from October to March during the cooler season when you can skip the summer heat and crowds.
+                        Don’t forget to wear sunscreen to protect yourself from the desert sun, and to you carry plenty of water with you. 
+                    </li>
+                    <li>Wear comfortable clothes and shoes as the Giza Plateau covers a vast area that requires a lot of walking around.</li>
+                </ul>
+
+            <div>
+                <img src="./res/egypt/attractionPyramidsGiza4.jpg" alt="Pyramids of Giza 4" />
+            </div>
+            
+            <div id="info-container">
+                <p style="font-size: 20px;"><b>Hour and Fees</b></p>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16" style="margin-bottom: 70px;">
+                        <path d="M8 3.5a.5.5 0 0 1 .5.5v4h3a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/>
+                    </svg>
+    
+                    <p> 
+                        <b>Hour</b>
+                        <br>08:00-16:00 (Jan - Mar, Oct - Dec)
+                        <br>07:00-17:00 (Apr - Sep)
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-x" viewBox="0 0 16 16">
+                        <path d="M6.146 7.146a.5.5 0 0 1 .708 0L8 8.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 9l1.147 1.146a.5.5 0 0 1-.708.708L8 9.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 9 6.146 7.854a.5.5 0 0 1 0-.708"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Closed</b>
+                        <br>Open 365 days a year
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Admission</b>
+                        <br> &#163;. 700
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        <a href="#top" class="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+            </svg>
+        </a>
+    
+    </div>
+
+    <!-- Footer -->
+    <div id="Footer-container"></div>
+    <script>
+        fetch('./footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('Footer-container').innerHTML = data;
+            });
+    </script>
+
+
+    <!-- Bootstrap 4.6 JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

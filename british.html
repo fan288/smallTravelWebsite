@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>British</title>
+    <!-- Bootstrap 4.6 CSS -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- tab icon -->
+    <link rel="icon" type="image/svg+xml" href="./res/other/suitcaseLogo.svg">
+    <!-- external style -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- sidebar -->
+    <script src="./sidebar.js"></script>
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar-container"></div>
+    <script>
+        fetch('./sidebar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('sidebar-container').innerHTML = data;
+
+                // Add the 'show' class
+                document.getElementById('collapseTwo').classList.add('show');
+
+                // bookmark
+                document.getElementById('british').style.backgroundColor = '#b39ddb';
+            });
+    </script>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1 style="text-align: center;">British</h1>
+
+        <div id="britishLocation">
+            <h3>Location</h3>
+
+            <div class="flex-image-row">
+                <div class="flex-image-row-container" style="flex: 1;"> 
+                    <p>
+                        The United Kingdom of Great Britain and Northern Ireland, commonly known 
+                        as the United Kingdom (UK) or Britain,[m] is a country in Northwestern Europe, 
+                        off the coast of the continental mainland. It comprises England, Scotland, 
+                        Wales and Northern Ireland. The UK includes the island of Great Britain, 
+                        the north-eastern part of the island of Ireland, and most of the smaller 
+                        islands within the British Isles, covering 94,354 square miles (244,376 km2). 
+                        Northern Ireland shares a land border with the Republic of Ireland; otherwise, 
+                        the UK is surrounded by the Atlantic Ocean, the North Sea, the English Channel, 
+                        the Celtic Sea and the Irish Sea. It maintains sovereignty over the British 
+                        Overseas Territories, which are located across various oceans and seas globally.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container" style="flex: 0.5;">
+                    <a href="./res/british/britishMap.png" target="_blank" data-lightbox="british-map" data-title="British Map" >
+                        <img src="./res/british/britishMap.png" alt="British Map">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="britishHistory" style="padding-bottom: 10px; clear: both;">
+            <h3>History</h3>
+
+            <p>
+                British history is a complex narrative shaped by invasions, colonization, and significant 
+                social changes. The story begins with prehistoric settlements, followed by the Roman 
+                conquest in 43 AD, which introduced infrastructure and urbanization. The fall of the 
+                Roman Empire led to the Anglo-Saxon period, where various kingdoms emerged and 
+                Christianity spread. The Norman Conquest in 1066, marked by William the Conqueror's 
+                victory at the Battle of Hastings, dramatically altered the political landscape and 
+                introduced feudalism, laying the foundations for modern governance.
+                
+                <br><br>
+                The subsequent centuries saw the rise of the monarchy, with pivotal events such as the 
+                signing of the Magna Carta in 1215, which established principles of legal rights and 
+                limited royal power. The Tudor period, particularly under Henry VIII and Elizabeth I, 
+                was marked by religious upheaval and exploration, contributing to England's cultural 
+                and political identity. The English Civil War in the 17th century challenged the 
+                monarchy's authority, leading to the temporary establishment of a republic and eventually 
+                shaping the constitutional monarchy that exists today.
+            </p>
+
+            <div class="flex-image-row" style="text-align: center;">
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/british/historyWilliamConqueror.webp" alt="William the Conqueror" >
+                    <p>William the Conqueror</p>
+                </div>
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/british/historyHenryVII.jpeg" alt="Henry VII">
+                    <p>Henry VII - the First Monarch of the House of Tudor</p>
+                </div>
+                <div class="flex-image-row-container" style="text-align: center;">
+                    <img src="./res/british/historyEnglishCivilWar.jpg" alt="English Civil War">
+                    <p>The First English Civil War (1642-1647)</p>
+                </div>
+            </div>
+
+            <br>
+            <p>
+                The 19th and early 20th centuries were transformative for Britain, marked by the expansion 
+                of the British Empire, which became the largest empire in history. This era saw Britain at 
+                the forefront of global trade, politics, and cultural exchange, influencing many regions 
+                worldwide. However, the empire's expansion often involved significant exploitation and 
+                conflict. The two World Wars brought immense social and economic challenges, reshaping 
+                British society, while post-war developments led to decolonization and a reassessment 
+                of national identity.
+            </p>
+
+            <div style="text-align: center;">
+                <iframe 
+                width="560" 
+                height="315"
+                src="https://www.youtube.com/embed/uifyFUL22PA" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+                <p style="font-size: 0.9rem; color: gray; margin-top: 5px;">
+                    Video by 
+                        <a href="https://www.youtube.com/channel/UC22BdTgxefuvUivrjesETjg" 
+                            target="_blank" 
+                            style="color: gray; 
+                            text-decoration: underline;">
+                            History Matters
+                        </a>
+                </p>
+            </div>
+        </div>
+
+        <div id="japanCulure">
+            <h3>Culture</h3>
+
+            <div class="flex-image-row">
+
+                <div class="flex-image-row-container" style="flex:1.3;">
+                    <p>
+                        British culture is a rich amalgamation of traditions, literature, music, and art that has evolved 
+                        over centuries. Literature has played a pivotal role, with iconic figures such as William 
+                        Shakespeare, Jane Austen, and Charles Dickens profoundly influencing English literature and 
+                        global storytelling. The British are known for their contributions to theater, with London's 
+                        West End being a major hub for world-class performances, showcasing everything from classic 
+                        plays to contemporary musicals.
+
+                        <br><br>
+                        Culinary traditions in Britain have also evolved, characterized by hearty dishes and regional specialties. 
+                        Classics like fish and chips, shepherd's pie, and Sunday roasts are staples of British cuisine, 
+                        often enjoyed in the warm ambiance of traditional pubs. The British pub culture serves as a social 
+                        cornerstone, where communities gather to enjoy food, drink, and conversation. Additionally, 
+                        the rise of multiculturalism in recent decades has enriched British cuisine, introducing diverse 
+                        flavors from around the world.
+
+                        <br><br>
+                        In addition to its literary and musical heritage, British culture includes a diverse range of 
+                        festivals and traditions that celebrate its rich history. Events like Notting Hill Carnival and 
+                        Glastonbury Festival showcase the vibrancy of contemporary British life, blending music, art, 
+                        and multicultural influences. The British royal family also plays a significant role in cultural 
+                        identity, with events such as royal weddings and the Changing of the Guard attracting global attention. 
+                        British humor, often characterized by its dry wit and self-deprecation, has left a lasting impact on 
+                        comedy, influencing television shows and stand-up performances worldwide. This blend of tradition 
+                        and modernity continues to define British culture, making it a dynamic and evolving entity.
+                    </p>
+                </div>
+
+                <div class="flex-image-row-container " style="flex:0.4;" >
+                    <div class="flex-image-vertical">
+                        <img src="./res/british/cultureShakespeare.png" alt="British Shakespeare">
+                        <p>William Shakespeare</p>
+                        <img src="./res/british/cultureFishChips.png" alt="British Fish and Chips">
+                        <p>Fish and Chips</p>
+                        <img src="./res/british/cultureNottingHillCarnival.png" alt="British Notting Hill Carnival">
+                        <p>Notting Hill Carnival</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="britishAttraction" class="eighty-percent-image">
+            <h3>
+                Attraction
+            </h3>
+
+            <p class="attraction-header">
+                The British Museum
+            </p>
+
+            <div>
+                <img src="./res/british/attractionBritishMuseumLondon1.jpg" alt="The British Museum 1" />
+            </div>
+
+            <p>
+                <a href="https://en.wikipedia.org/wiki/British_Museum" target="_blank">The British Museum</a> 
+                was founded in 1753 and opened its doors in 1759. It was the first national museum to cover all fields of 
+                human knowledge, open to visitors from across the world. Enlightenment ideals and values – critical scrutiny of all assumptions, open debate, scientific research, 
+                progress and tolerance – have marked the Museum since its foundation. The Museum is driven by an insatiable curiosity for the world, a deep belief in objects as reliable witnesses 
+                and documents of human history, sound research, as well as the desire to expand and share knowledge.
+            </p>
+
+            <div>
+                <img src="./res/british/attractionBritishMuseumLondon2.jpg" alt="The British Museum 2" />
+                <p style="text-align: center;">Elgin Marbles</p>
+            </div>
+
+            <p>
+                Among the British Museum’s most famous holdings are the Elgin Marbles, which were removed in the early 19th 
+                century from the Parthenon in Athens and shipped to England by arrangement of Thomas Bruce, 7th Lord Elgin. 
+                The Greek government frequently demanded the return of the marbles, but the British Museum—claiming among other 
+                reasons that it had saved the marbles from certain damage and deterioration—did not accede, and the issue remained 
+                controversial. 
+
+            </p>
+
+            <div>
+                <img src="./res/british/attractionBritishMuseumLondon3.jpg" alt="The British Museum 3" />
+                <p style="text-align: center;">The Rosetta Stone</p>
+            </div>
+
+            <p>
+                Other objects in the collection include Greek sculptures from the Mausoleum of Halicarnassus and 
+                from the Temple of Artemis at Ephesus; the Rosetta Stone, which provided the key to reading ancient Egyptian 
+                hieroglyphs; the Black Obelisk and other Assyrian relics from the palace and temples at Calah (modern Nimrūd) 
+                and Nineveh; exquisite gold, silver, and shell work from the ancient Mesopotamian city of Ur; the so-called 
+                Portland Vase, a 1st-century-ce cameo glass vessel found near Rome; treasure from the 7th-century-ce ship burial 
+                found at Sutton Hoo, Suffolk; and Chinese ceramics from the Ming and other dynasties.
+
+            </p>
+
+            <p class="attraction-sub-header"><b>Getting There and Around</b></p>
+
+            <p>You are advised to book a free ticket (Opens in new window) in advance of your visit. Entry to the Museum is via 
+                the Main entrance on Great Russell Street or the Montague Place entrance. Please note walk-up entry will only be 
+                possible at the Montague Place entrance, and entry is dependent on capacity.
+
+                <br><br>
+                Getting to the British Museum by train is easy with Avanti. The nearest train station is London Euston, which Avanti 
+                trains travel to every day. You can walk to the British Museum from London Euston in 14 minutes by following these directions:
+
+                <br><br>
+                Leave the station and turn left onto Euston Road. Then, take the left at the crossroads onto Gower Street. Finally, 
+                take the left at Montague Place, which is directly beyond Malet Street Gardens. 
+                
+                <br><br>
+                You’ll see plenty of signposts to 
+                help you along your way. You won’t miss the Museum, it surrounds the largest covered courtyard in Europe. The Museum’s roof 
+                features 1,656 individually shaped glass panels, which sit in a steel frame. And in true Greek Revival style, the front of the 
+                Museum boasts 44 45-foot columns.
+
+                <br><br>
+                The British Museum’s address is Great Russell Street, WC1B 3DG. There is also a second entrance at Montague Place, WC1E 7JW.
+                
+            </p>
+
+            <div>
+                <img src="./res/british/attractionBritishMuseumLondon4.jpg" alt="The British Museum 4" />
+            </div>
+            
+            <div id="info-container">
+                <p style="font-size: 20px;"><b>Hour and Fees</b></p>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 1 .5.5v4h3a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0z"/>
+                    </svg>
+    
+                    <p> 
+                        <b>Hour</b>
+                        <br>Monday to Sunday: 10:00 to 17 (entry to buildings ends at 16:00)
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-x" viewBox="0 0 16 16">
+                        <path d="M6.146 7.146a.5.5 0 0 1 .708 0L8 8.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 9l1.147 1.146a.5.5 0 0 1-.708.708L8 9.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 9 6.146 7.854a.5.5 0 0 1 0-.708"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Closed</b>
+                        <br>December 24 - December 26
+                    </p>
+                </div>
+
+                <div class="info-item-div">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
+                    </svg>
+                
+                    <p> 
+                        <b>Admission</b>
+                        <br> Free of Charge
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        <a href="#top" class="back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+            </svg>
+        </a>
+    
+    </div>
+
+    <!-- Footer -->
+    <div id="Footer-container"></div>
+    <script>
+        fetch('./footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('Footer-container').innerHTML = data;
+            });
+    </script>
+
+
+    <!-- Bootstrap 4.6 JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
